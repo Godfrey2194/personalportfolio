@@ -1,0 +1,30 @@
+body {
+    overflow: auto;
+}
+
+
+/*Adding a background color to the navbar*/
+.topnav {
+background-color: hotpink;
+overflow: hidden;
+}
+/*Styling the links inside the navbar*/
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 18px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+/*Changing color on hover*/
+.topnav a:hover {
+    background-color: red;
+    color: lawngreen;
+}
+/*Adding color to the active or current link*/
+.topnav a.active {
+    background-color: lawngreen;
+    color: red;
+}
